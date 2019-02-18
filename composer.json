@@ -1,0 +1,20 @@
+{
+    "name": "eyuva/laravel-camcorder",
+    "description": "Laravel package to make video using images and audio files",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vishal Sancheti",
+            "email": "mail@vishal.pro",
+            "homepage": "https://eyuva.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
