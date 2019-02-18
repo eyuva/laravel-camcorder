@@ -62,8 +62,6 @@ class Camcorder
         unlink($this->seq_file_path);
         if (! $process->isSuccessful()) {
             throw new \Exception(trim($process->getErrorOutput()));
-        }else{
-            fclose($this->seq_file);
         }
     }
 }
