@@ -33,7 +33,7 @@ class Camcorder
 
     public function addAudio($audio_path)
     {
-       //
+       $this->audio_file_path = $audio_path;
     }
 
     public function generate($output_path,$file_name)
@@ -43,6 +43,11 @@ class Camcorder
         //Add Images
         if(filesize($this->seq_file_path)) {
             $cmd .=' -f concat -safe 0 -i ' . $this->seq_file_path ;
+        }
+
+        //Add Audio
+        if(filesize($this->audio_file_path)) {
+            $cmd .= ' -i '.$this->audio_file_path.' -shortest';
         }
 
         //Video Filters
