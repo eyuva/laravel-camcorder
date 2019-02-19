@@ -62,6 +62,11 @@ Step 5. Use video file generated as you want.
 Done!
 ```
 
+**Demo**
+-
+Use this laravel project for the demo [Github](https://github.com/eyuva/laravel-camcorder).
+
+
 **Contribute**
 -
 
