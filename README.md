@@ -56,7 +56,7 @@ Step 4. Generate Video
 $camcorder->generate(<output_path>,<file_name>);
 ```
 
-Step 5. Use video file generate as you want.
+Step 5. Use video file generated as you want.
 
 ```
 Done!
