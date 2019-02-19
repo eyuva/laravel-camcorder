@@ -64,7 +64,7 @@ Done!
 
 **Demo**
 -
-Use this laravel project for the demo [Github](https://github.com/eyuva/laravel-camcorder).
+Use this laravel project for the demo [Github](https://github.com/v1shky/camcorder-demo).
 
 
 **Contribute**
