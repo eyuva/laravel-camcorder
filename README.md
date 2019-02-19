@@ -65,7 +65,7 @@ Done!
 **Contribute**
 -
 
-Contributions are welcome and will be fully credited. We accept contributions via Pull Requests on [GitHub](https://github.com/eyuva/domain-diary).
+Contributions are welcome and will be fully credited. We accept contributions via Pull Requests on [GitHub](https://github.com/eyuva/laravel-camcorder).
 
 **Loveware**
 -
