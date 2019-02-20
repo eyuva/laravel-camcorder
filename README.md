@@ -6,6 +6,8 @@ Laravel package to generate video using images and audio.
 
 Step 1. Install FFMPEG 4.1 and verify
 
+Check [Wiki](https://github.com/eyuva/laravel-camcorder/wiki) for the installation guide and verify installation
+
 ```
 ffmpeg -version
 ```
