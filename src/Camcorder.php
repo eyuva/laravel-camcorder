@@ -56,7 +56,7 @@ class Camcorder
         //Output
         $cmd .=  ' '.$output_path.'/'.$file_name.'.mp4  -y';
 
-        $process = new Process($cmd);
+        $process =  Process::fromShellCommandline($cmd);
         $process->run();
 
         unlink($this->seq_file_path);
