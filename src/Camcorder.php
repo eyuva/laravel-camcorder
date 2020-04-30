@@ -15,7 +15,7 @@ class Camcorder
     public function __construct()
     {
         $this->fps = config('camcorder.fps',25);
-        $this->seq_file_path = storage_path('app/'.str_random(4).'.txt');
+        $this->seq_file_path = storage_path('app/'.rand().'.txt');
         $this->seq_file = fopen($this->seq_file_path, 'w');
         fwrite($this->seq_file, "ffconcat version 1.0\n");
         fclose($this->seq_file);
