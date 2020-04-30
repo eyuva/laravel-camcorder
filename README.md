@@ -66,7 +66,7 @@ Done!
 
 **Demo**
 -
-Use this laravel project for the demo [Github](https://github.com/v1shky/camcorder-demo).
+Use this laravel project for the demo [Github](https://github.com/vishal-sancheti/camcorder-demo).
 
 
 **Contribute**
@@ -82,7 +82,7 @@ If you **Love It** then **Star It**
 **Contributors**
 -
 
-* [Vishal Sancheti](https://github.com/v1shky)
+* [Vishal Sancheti](https://github.com/vishal-sancheti)
 
 **License**
 -
